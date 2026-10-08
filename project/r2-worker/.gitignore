@@ -1,0 +1,4 @@
+.dev.vars
+.env.r2.local
+.wrangler
+.wrangler-dry-run

@@ -1,0 +1,24 @@
+[api]
+port = 55321
+
+[db]
+port = 55322
+shadow_port = 55320
+
+[studio]
+port = 55323
+
+[inbucket]
+port = 55324
+smtp_port = 55325
+pop3_port = 55326
+
+[analytics]
+enabled = false
+
+[functions.ai-solve]
+verify_jwt = true
+
+[storage]
+file_size_limit = "200MiB"
+

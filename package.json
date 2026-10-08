@@ -1,0 +1,13 @@
+{
+  "name": "armarium-workspace",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix project run dev -- --host 127.0.0.1",
+    "db:start": "npm --prefix project run db:start",
+    "db:stop": "npm --prefix project run db:stop",
+    "functions:serve": "npm --prefix project run functions:serve",
+    "build": "npm --prefix project run build",
+    "typecheck": "npm --prefix project run typecheck",
+    "lint": "npm --prefix project run lint"
+  }
+}
